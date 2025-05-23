@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ariza</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="main main__wrapper">
+        <h1 class="header__title">Ariza topshirish</h1>
+        <div class="link">
+          <button class="btn">Ariza topshirish</button>
+        </div>
+
+        <img
+          class="img"
+          src="https://yt3.googleusercontent.com/a-nw8NijghrOkXjcr6_OEiKAoG1aVDtf9ClNmiJFheuiycnPJ7igoyp1jU07K6kQuAPo8zKb_g=s900-c-k-c0x00ffffff-no-rj"
+          alt="osiyo xalqaro universiteti"
+        />
+        <div class="text">
+          <p>
+            Agar Osiyo xalqaro universitetiga ariza qoldirmoqchi bo'lsangiz
+            tepadagi linkga bosing.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <div class="modal-window">
+      <form class="modal-form">
+        <h3 class="form__title">Arizani to'ldiring:</h3>
+
+        <input
+          type="text"
+          class="input"
+          id="ism"
+          placeholder="Ismingiz"
+          required
+        />
+
+        <input
+          type="text"
+          class="input"
+          id="familiyangiz"
+          placeholder="Familiyangiz"
+          required
+        />
+
+        <input
+          type="text"
+          class="input"
+          id="Tug'ilgan yil,oy,sana"
+          placeholder="Tug'ilgan yil,oy,sana"
+        />
+
+        <input
+          type="text"
+          class="input"
+          id="Pasport raqam"
+          placeholder="Pasport raqam"
+        />
+
+        <input type="text" class="input" id="Manzil" placeholder="Manzili" />
+
+        <button class="btn btn-red" type="submit">Yuborish</button>
+      </form>
+    </div>
+
+    <div class="success-message" style="display: none">
+      <p>✅ Arizangiz qabul qilindi</p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
